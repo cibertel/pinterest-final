@@ -26,6 +26,7 @@ background: #e9e9e9;
     padding: 10px;
 }
 
+   
 
 div nav ul li {
  display: inline-block;
@@ -69,7 +70,15 @@ padding: 5px;
     border-radius: 50px;
     width: 600px;
     height: 40px;
+   background-color: rgb(229, 227, 227);
+   border-color: none;
 
+}
+input:hover{
+    
+    border-color: aqua;
+ 
+    
 }
 .menu{
     display: flex;
@@ -78,9 +87,4 @@ padding: 5px;
     
     }
 
-    @media  (max-width:600px) {
-        .menu{
-            flex-direction: column;
-
-        }
-    }
+   
